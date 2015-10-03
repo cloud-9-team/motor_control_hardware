@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by Cvpcb (2015-03-29 BZR 5548)-product   date = sáb 03 oct 2015 14:32:33 ART
+
+BeginCmp
+TimeStamp = /560AA651;
+Reference = L293D1;
+ValeurCmp = L293D;
+IdModule  = Housings_DIP:DIP-16_W7.62mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398AC24;
+Reference = P1;
+ValeurCmp = CONN_20X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398AC33;
+Reference = P2;
+ValeurCmp = CONN_20X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398AC42;
+Reference = R20;
+ValeurCmp = 470;
+IdModule  = Resistors_ThroughHole:Resistor_Cement_Horizontal_Meggitt-SBC-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398AC4F;
+Reference = R21;
+ValeurCmp = 1k2;
+IdModule  = Resistors_ThroughHole:Resistor_Cement_Horizontal_Meggitt-SBC-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398AC55;
+Reference = R22;
+ValeurCmp = 1k2;
+IdModule  = Resistors_ThroughHole:Resistor_Cement_Horizontal_Meggitt-SBC-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398AC5B;
+Reference = R23;
+ValeurCmp = 1k2;
+IdModule  = Resistors_ThroughHole:Resistor_Cement_Horizontal_Meggitt-SBC-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CA1D91;
+Reference = TH1;
+ValeurCmp = MF-MSMF030-2;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /539535E7;
+Reference = TH2;
+ValeurCmp = MF-MSMF030-2;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E1654;
+Reference = TH3;
+ValeurCmp = MF-MSMF030-2;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /539E1660;
+Reference = TH4;
+ValeurCmp = MF-MSMF030-2;
+IdModule  = Discret:R1;
+EndCmp
+
+EndListe
