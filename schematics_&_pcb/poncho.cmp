@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by Cvpcb (2015-03-29 BZR 5548)-product   date = jue 08 oct 2015 21:58:07 ART
+
+BeginCmp
+TimeStamp = /5616E747;
+Reference = C1;
+ValeurCmp = CP;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5616E701;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56175CA0;
+Reference = J1;
+ValeurCmp = TB_1X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /56175F83;
+Reference = J2;
+ValeurCmp = TB_1X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /56176549;
+Reference = J3;
+ValeurCmp = TB_1X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /560AA651;
+Reference = L293D1;
+ValeurCmp = L293D;
+IdModule  = Housings_DIP:DIP-16_W7.62mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398AC24;
+Reference = P1;
+ValeurCmp = CONN_20X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /5398AC33;
+Reference = P2;
+ValeurCmp = CONN_20X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /5613172D;
+Reference = P3;
+ValeurCmp = ESP8266;
+IdModule  = Housings_DIP:DIP-8_W7.62mm_LongPads;
+EndCmp
+
+EndListe

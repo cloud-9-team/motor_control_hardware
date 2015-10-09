@@ -1,4 +1,4 @@
-update=mar 29 sep 2015 10:35:26 ART
+update=jue 08 oct 2015 21:59:21 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -43,14 +43,11 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -83,5 +80,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=stepper drivers
-[general]
-version=1
+LibName32=/home/julian/Documents/EDU-CIAA/PCB/EDU-NXP/kicadlibrary/edu-ciaa-nxp
+LibName33=terminal_block
