@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-29 BZR 5548)-product   date = jue 08 oct 2015 21:58:07 ART
+Cmp-Mod V01 Created by Cvpcb (2015-03-29 BZR 5548)-product   date = lun 09 nov 2015 23:05:42 ART
 
 BeginCmp
 TimeStamp = /5616E747;
@@ -12,6 +12,20 @@ TimeStamp = /5616E701;
 Reference = C2;
 ValeurCmp = C;
 IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /564110B9;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5641110C;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
 EndCmp
 
 BeginCmp
@@ -33,6 +47,20 @@ TimeStamp = /56176549;
 Reference = J3;
 ValeurCmp = TB_1X2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5641386D;
+Reference = J4;
+ValeurCmp = TB_1X3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /564138B6;
+Reference = J5;
+ValeurCmp = TB_1X3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -61,6 +89,48 @@ TimeStamp = /5613172D;
 Reference = P3;
 ValeurCmp = ESP8266;
 IdModule  = Housings_DIP:DIP-8_W7.62mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = /564122E9;
+Reference = Q1;
+ValeurCmp = NPN-PHOTO-2;
+IdModule  = modules:PHOTOTRANS-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /564122A6;
+Reference = Q2;
+ValeurCmp = NPN-PHOTO-2;
+IdModule  = modules:PHOTOTRANS-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /56410BD7;
+Reference = R1;
+ValeurCmp = 4700;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56410C30;
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56410C54;
+Reference = R3;
+ValeurCmp = 4700;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56410C79;
+Reference = R4;
+ValeurCmp = 100;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 EndListe

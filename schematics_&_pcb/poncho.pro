@@ -1,4 +1,4 @@
-update=jue 08 oct 2015 21:59:21 ART
+update=lun 09 nov 2015 18:09:57 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -82,3 +82,4 @@ LibName30=valves
 LibName31=stepper drivers
 LibName32=/home/julian/Documents/EDU-CIAA/PCB/EDU-NXP/kicadlibrary/edu-ciaa-nxp
 LibName33=terminal_block
+LibName34=ok-transistors
