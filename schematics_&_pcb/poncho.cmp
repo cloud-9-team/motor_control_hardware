@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-29 BZR 5548)-product   date = lun 09 nov 2015 23:05:42 ART
+Cmp-Mod V01 Created by Cvpcb (2015-03-29 BZR 5548)-product   date = sáb 21 nov 2015 12:39:58 ART
 
 BeginCmp
 TimeStamp = /5616E747;
@@ -64,6 +64,20 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
+TimeStamp = /5644FC7D;
+Reference = J6;
+ValeurCmp = TB_1X3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /5644FCFD;
+Reference = J7;
+ValeurCmp = TB_1X3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
 TimeStamp = /560AA651;
 Reference = L293D1;
 ValeurCmp = L293D;
@@ -88,7 +102,7 @@ BeginCmp
 TimeStamp = /5613172D;
 Reference = P3;
 ValeurCmp = ESP8266;
-IdModule  = Housings_DIP:DIP-8_W7.62mm_LongPads;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
 EndCmp
 
 BeginCmp
