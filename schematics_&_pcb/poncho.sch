@@ -1,34 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:poncho-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:stepper drivers
 LIBS:terminal_block
 LIBS:ok-transistors
@@ -402,7 +373,7 @@ U 1 1 5613172D
 P 8250 950
 F 0 "P3" H 8250 1200 60  0000 C CNN
 F 1 "ESP8266" V 8250 950 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 8250 950 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04" H 8250 950 60  0001 C CNN
 F 3 "" H 8250 950 60  0000 C CNN
 	1    8250 950 
 	1    0    0    -1  
