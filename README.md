@@ -47,11 +47,11 @@ $ git init
 ```
 Luego se debe relacionar el repositorio con la carpeta donde previamente te situaste:
 ```sh
-$ git remote add origin https://github.com/cloud-9-team/tdp1_grupo1.git
+$ git remote add origin https://github.com/cloud-9-team/motor_control_hardware.git
 ```
 Por último, los contenidos se descargarán a la carpeta corriendo el siguiente comando:
 ```sh
 $ git pull origin master
 ```
 ### Version
-0.1
+1.1

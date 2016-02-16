@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.1-3.201512221402+6198~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.2-4+6225~38~ubuntu14.04.1-stable)
 
   (general
     (links 113)
@@ -13,6 +13,15 @@
   )
 
   (page A4)
+  (title_block
+    (title "Poncho de control de motores por Wi-Fi")
+    (date 2016-02-16)
+    (rev 1.1)
+    (company "UNLP - Cátedra de Taller de Proyecto 1 - Grupo 1: Ailán, Bouche, Hourquebie, Liotta")
+    (comment 1 "Poncho para Computadora Industrial Abierta Argentina Versión Educativa EDU-CIAA-NXP")
+    (comment 2 "Licencia: https://github.com/ciaa/Hardware/tree/master/Readme (LICENSE)")
+  )
+
   (layers
     (0 F.Cu power)
     (31 B.Cu signal)
@@ -84,7 +93,7 @@
       (padsonsilk false)
       (subtractmaskfromsilk false)
       (outputformat 4)
-      (mirror true)
+      (mirror false)
       (drillshape 2)
       (scaleselection 1)
       (outputdirectory /home/julian/Desktop/plot/))

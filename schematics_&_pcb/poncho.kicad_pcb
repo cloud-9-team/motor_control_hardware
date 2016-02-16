@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.1-3.201512221402+6198~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.2-4+6225~38~ubuntu14.04.1-stable)
 
   (general
     (links 113)
     (no_connects 16)
     (area 45.599999 32.469999 252.169491 122.889919)
     (thickness 1.6)
-    (drawings 35)
+    (drawings 41)
     (tracks 323)
     (zones 0)
     (modules 52)
@@ -13,6 +13,15 @@
   )
 
   (page A4)
+  (title_block
+    (title "Poncho de control de motores por Wi-Fi")
+    (date 2016-02-16)
+    (rev 1.1)
+    (company "UNLP - Cátedra de Taller de Proyecto 1 - Grupo 1: Ailán, Bouche, Hourquebie, Liotta")
+    (comment 1 "Poncho para Computadora Industrial Abierta Argentina Versión Educativa EDU-CIAA-NXP")
+    (comment 2 "Licencia: https://github.com/ciaa/Hardware/tree/master/Readme (LICENSE)")
+  )
+
   (layers
     (0 F.Cu power)
     (31 B.Cu signal)
@@ -1586,6 +1595,14 @@
     )
   )
 
+  (gr_line (start 121.34 24.41) (end 121.37 24.41) (angle 90) (layer B.Adhes) (width 0.2))
+  (gr_line (start 121.34 31.73) (end 121.34 24.41) (angle 90) (layer B.Adhes) (width 0.2))
+  (gr_line (start 169.79 31.73) (end 121.34 31.73) (angle 90) (layer B.Adhes) (width 0.2))
+  (gr_line (start 169.79 24.37) (end 169.79 31.73) (angle 90) (layer B.Adhes) (width 0.2))
+  (gr_line (start 121.45 24.37) (end 169.79 24.37) (angle 90) (layer B.Adhes) (width 0.2))
+  (gr_text "PCB del regulador de 5V, en caso que \nsea necesario el uso del mismo." (at 146.47 28.11) (layer B.Adhes)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text + (at 154.84 38.6) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
