@@ -12,6 +12,8 @@ En este proyecto se buscará desarrollar específicamente los siguientes puntos:
  - Comunicación serie entre EDU-CIAA y módulo Wi-Fi.
  - Aplicación Android para comunicación con el módulo.
 
+Estos dos últimos ítems se encuentran alojados en el siguiente repositorio https://github.com/cloud-9-team/motor_control_firmware_apps .
+
 ### Esquema de funcionamiento
 El funcionamiento del vehículo será controlado por **instrucciones AT** enviadas inalámbricamente por Wi-Fi desde un smartphone, corriendo un sistema operativo Android, al módulo ESP8266. El módulo ESP8266 enviará las instrucciones por **comunicación serie** a la EDU CIAA-NXP. La EDU CIAA procesará los comandos y, en base a eso, modificará los valores correspondientes de los cuatro outputs de SCT (módulo State Controlled Timer). Las señales serán enviadas a los inputs del H-bridge IC. El H-bridge, en base a la tensión media que reciba por sus entradas, permitirá a los dos motores girar en determinado sentido y con una cierta velocidad. Los sentidos y velocidades de los motores determinarán la dirección de movimiento del vehículo.
 
